@@ -53,17 +53,14 @@ java -jar target/mars-rover-0.0.1-SNAPSHOT.jar input.txt
 ---
 
 ##  Structure du projet
-```
-com.bnpp.rover
-├── MarsRoverApplication.java
-├── model
-│   ├── Rover.java
-│   └── Plateau.java
-├── service
-│   └── RoverController.java
-├── util
-    └── FileReaderUtil.java
-```
+
+model/ – Contient les classes principales : Rover, Plateau, Direction
+
+service/ – Contient la logique métier, notamment la classe RoverController
+
+util/ – Gère la lecture de fichiers et les utilitaires
+
+test/ – Contient les tests unitaires avec JUnit 5 et Mockito
 
 ---
 
